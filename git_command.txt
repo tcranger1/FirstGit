@@ -1,0 +1,4 @@
+git remote rename origin old-origin
+git remote add origin ssh://git@nypgtsrv.sis.nyp.org:8022/colonto/boxpythonclone.git
+git push -u origin --all
+git push -u origin --tags
